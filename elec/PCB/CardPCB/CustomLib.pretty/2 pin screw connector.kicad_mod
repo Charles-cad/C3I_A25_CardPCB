@@ -1,0 +1,152 @@
+(footprint "2 pin screw connector"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -1.125645 -4.337545 0)
+		(layer "F.SilkS")
+		(uuid "73cfd06b-3a25-40b8-9ed1-ba5f4e04158e")
+		(effects
+			(font
+				(size 1.000591 1.000591)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "2 pin screw connector"
+		(at 5.229005 4.568475 0)
+		(layer "F.Fab")
+		(uuid "d7eb6f62-af01-4565-8007-7264c8ecda25")
+		(effects
+			(font
+				(size 1.000764 1.000764)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "63ee69dd-fff6-47cc-8bef-a0448b10cae3")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "1f09840a-512a-42ca-88e9-31671d0b8ec0")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -4.05 -3.4)
+		(end 4.05 -3.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "428c2412-b82a-47a0-9648-b961d12fd0c8")
+	)
+	(fp_line
+		(start -4.05 3.6)
+		(end -4.05 -3.4)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1e62b558-453c-4cee-928e-fae87ae80d62")
+	)
+	(fp_line
+		(start 4.05 -3.4)
+		(end 4.05 3.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6f049b38-3cfa-46e9-8f1a-2170c1e3ec60")
+	)
+	(fp_line
+		(start 4.05 3.6)
+		(end -4.05 3.6)
+		(stroke
+			(width 0.127)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "7f7d6c06-09ac-4686-b935-f2f808bf440f")
+	)
+	(fp_line
+		(start -4.3 -3.65)
+		(end 4.3 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "63fa2f6b-1869-4d58-a5fb-90b29ea6bce4")
+	)
+	(fp_line
+		(start -4.3 3.85)
+		(end -4.3 -3.65)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "11f5df28-e7cc-453e-b7fa-065b51710b3d")
+	)
+	(fp_line
+		(start 4.3 -3.65)
+		(end 4.3 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "f95e7679-48a5-4708-8193-70d437b79ab1")
+	)
+	(fp_line
+		(start 4.3 3.85)
+		(end -4.3 3.85)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "28a5975f-9ca5-4682-972e-a680da51204a")
+	)
+	(pad "1" thru_hole rect
+		(at -1.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "d37600b7-9bdc-4419-8776-d155becc3c2d")
+	)
+	(pad "2" thru_hole circle
+		(at 1.75 0)
+		(size 1.8 1.8)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.102)
+		(uuid "0c4c5473-d010-4a05-bdfc-15b8f9e88261")
+	)
+	(embedded_fonts no)
+)
