@@ -177,7 +177,7 @@
           "td_maxlen": 1.0,
           "td_on_pad_in_zone": false,
           "td_target_name": "td_track_end",
-          "td_width_to_size_filter_ratio": 0.9
+          "td_width_to_size_filter_ratio": 0.8
         }
       ],
       "track_widths": [],

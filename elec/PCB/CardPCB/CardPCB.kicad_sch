@@ -1268,168 +1268,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N630xCA"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N630xCA"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-				(at 0 -5.08 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.vishay.com/docs/88301/15ke.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode TVS voltage suppressor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D?DO?201AE*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N630xCA_0_1"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0) (xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.508 1.27) (xy 0 1.27) (xy 0 -1.27) (xy -0.508 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.27) (xy 2.54 -1.27) (xy 0 0) (xy 2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N630xCA_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "A1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Simulation_SPICE:PMOS"
 			(pin_numbers
 				(hide yes)
@@ -3071,6 +2909,16 @@
 		)
 		(uuid "46f60067-972f-4d34-b94e-aae64bee00f5")
 	)
+	(text "TVS diode removed :\nto big to fit\n"
+		(exclude_from_sim no)
+		(at 62.484 34.036 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "63396f74-7c66-481c-a4e3-0d37fe78978d")
+	)
 	(text "Power"
 		(exclude_from_sim no)
 		(at 23.114 18.288 0)
@@ -3128,12 +2976,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "544df107-b5e9-4b19-9620-53d63eb2c74a")
-	)
-	(junction
-		(at 50.8 27.94)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5b1b6acb-7c75-435d-9eed-fbc5fc4ff690")
 	)
 	(junction
 		(at 120.65 27.94)
@@ -3281,16 +3123,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 39.37) (xy 50.8 40.64)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3256317d-9cec-46a1-b008-3a0ebf7ff555")
-	)
-	(wire
-		(pts
 			(xy 87.63 83.82) (xy 92.71 83.82)
 		)
 		(stroke
@@ -3301,7 +3133,7 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 27.94) (xy 45.72 27.94)
+			(xy 45.72 27.94) (xy 85.09 27.94)
 		)
 		(stroke
 			(width 0)
@@ -3338,16 +3170,6 @@
 			(type default)
 		)
 		(uuid "4b8e61f5-2bcb-4b66-9fcb-ab8b6e91c9c1")
-	)
-	(wire
-		(pts
-			(xy 50.8 31.75) (xy 50.8 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "565e97d1-1897-4410-ab8a-b3e56ced1a29")
 	)
 	(wire
 		(pts
@@ -3498,16 +3320,6 @@
 			(type default)
 		)
 		(uuid "8f26d714-8f06-4c61-8219-034136fe0a63")
-	)
-	(wire
-		(pts
-			(xy 50.8 27.94) (xy 85.09 27.94)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "961f7121-dc46-4966-becd-6af4937b2e94")
 	)
 	(wire
 		(pts
@@ -4336,75 +4148,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N630xCA")
-		(at 50.8 35.56 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "567127ce-f65a-4929-b688-ac1d7b93a907")
-		(property "Reference" "D1"
-			(at 53.34 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "TVS 5VWM 14VC SOD323"
-			(at 53.34 37.084 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-201AE_P15.24mm_Horizontal"
-			(at 55.88 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.digikey.ca/en/products/detail/diodes-incorporated/DESD5V0S1BA-7/3451477"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"
-			(at 50.8 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "5e7b058e-9813-44d4-8c05-7c5d0bd61fd1")
-		)
-		(pin "1"
-			(uuid "17ba8136-52d3-49e3-b650-659e25d327e2")
-		)
-		(instances
-			(project ""
-				(path "/5d40675e-f021-4f7d-ab90-3f579d2e0ed7"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:VCC")
 		(at 46.99 73.66 0)
 		(unit 1)
@@ -5188,72 +4931,6 @@
 			(project ""
 				(path "/5d40675e-f021-4f7d-ab90-3f579d2e0ed7"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 50.8 40.64 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "7b4a5628-8235-4395-a1b9-8b2bf91947e0")
-		(property "Reference" "#PWR04"
-			(at 50.8 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 50.8 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 50.8 40.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5246a800-6c79-462d-a5b8-980faedf6e85")
-		)
-		(instances
-			(project "CardPCB"
-				(path "/5d40675e-f021-4f7d-ab90-3f579d2e0ed7"
-					(reference "#PWR04")
 					(unit 1)
 				)
 			)
