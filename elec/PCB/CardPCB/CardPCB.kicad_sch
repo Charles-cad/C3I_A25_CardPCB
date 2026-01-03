@@ -2857,7 +2857,7 @@
 	)
 	(rectangle
 		(start 19.05 63.5)
-		(end 106.68 115.57)
+		(end 106.68 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2868,8 +2868,8 @@
 		(uuid 60e6f08d-b394-4da7-8550-123b59ef3e37)
 	)
 	(rectangle
-		(start 19.05 118.11)
-		(end 69.85 184.15)
+		(start 109.22 63.5)
+		(end 166.37 129.54)
 		(stroke
 			(width 0)
 			(type default)
@@ -2881,7 +2881,7 @@
 	)
 	(text "1.4A@5.1V"
 		(exclude_from_sim no)
-		(at 53.086 153.924 0)
+		(at 144.526 99.314 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2901,7 +2901,7 @@
 	)
 	(text "Light dimming"
 		(exclude_from_sim no)
-		(at 26.924 120.142 0)
+		(at 118.364 65.532 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2949,9 +2949,9 @@
 		)
 		(uuid "b3c3e359-7a4f-449e-a6d0-372258c953dd")
 	)
-	(text "*2 Right source is for testing purposes only"
+	(text "*2 BT2 is for external power"
 		(exclude_from_sim no)
-		(at 132.334 56.642 0)
+		(at 125.222 55.88 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2960,7 +2960,7 @@
 		(uuid "e6646147-5fff-4315-83fc-b01181a5c773")
 	)
 	(junction
-		(at 49.53 139.7)
+		(at 140.97 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "33d5f3a9-2aa7-42e8-b372-13e4c10e27fc")
@@ -2984,7 +2984,7 @@
 		(uuid "92faa624-6db3-4a8e-bae2-6ecd648e3be1")
 	)
 	(junction
-		(at 26.67 162.56)
+		(at 118.11 107.95)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "a1f91540-f974-4010-8f78-6f21721a5b24")
@@ -3173,7 +3173,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 153.67) (xy 44.45 157.48)
+			(xy 135.89 99.06) (xy 135.89 102.87)
 		)
 		(stroke
 			(width 0)
@@ -3223,7 +3223,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 157.48) (xy 26.67 162.56)
+			(xy 118.11 102.87) (xy 118.11 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3243,7 +3243,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 139.7) (xy 49.53 142.24)
+			(xy 140.97 85.09) (xy 140.97 87.63)
 		)
 		(stroke
 			(width 0)
@@ -3253,7 +3253,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 162.56) (xy 26.67 163.83)
+			(xy 118.11 107.95) (xy 118.11 109.22)
 		)
 		(stroke
 			(width 0)
@@ -3273,7 +3273,7 @@
 	)
 	(wire
 		(pts
-			(xy 49.53 135.89) (xy 49.53 139.7)
+			(xy 140.97 81.28) (xy 140.97 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3303,7 +3303,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 162.56) (xy 36.83 162.56)
+			(xy 118.11 107.95) (xy 128.27 107.95)
 		)
 		(stroke
 			(width 0)
@@ -3353,7 +3353,7 @@
 	)
 	(wire
 		(pts
-			(xy 26.67 171.45) (xy 26.67 172.72)
+			(xy 118.11 116.84) (xy 118.11 118.11)
 		)
 		(stroke
 			(width 0)
@@ -3413,7 +3413,7 @@
 	)
 	(wire
 		(pts
-			(xy 44.45 146.05) (xy 44.45 143.51)
+			(xy 135.89 91.44) (xy 135.89 88.9)
 		)
 		(stroke
 			(width 0)
@@ -3514,7 +3514,7 @@
 	(netclass_flag ""
 		(length 2.54)
 		(shape round)
-		(at 26.67 157.48 0)
+		(at 118.11 102.87 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3523,7 +3523,7 @@
 		)
 		(uuid "2ea4abf9-d50f-4b07-8d0f-db21915ec8ea")
 		(property "Netclass" "PWM"
-			(at 24.13 152.908 0)
+			(at 115.57 98.298 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3532,7 +3532,7 @@
 			)
 		)
 		(property "Component Class" ""
-			(at -116.84 96.52 0)
+			(at -25.4 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4214,7 +4214,7 @@
 	)
 	(symbol
 		(lib_id "CustomSym:HeatSink")
-		(at 53.34 133.35 0)
+		(at 144.78 78.74 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4223,7 +4223,7 @@
 		(fields_autoplaced yes)
 		(uuid "5aeabab6-986a-46c7-bae4-e7b4829eb1ec")
 		(property "Reference" "H1"
-			(at 55.88 134.6199 0)
+			(at 147.32 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4232,7 +4232,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.88 137.1599 0)
+			(at 147.32 82.5499 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4241,7 +4241,7 @@
 			)
 		)
 		(property "Footprint" "CustomLib:Heatsink"
-			(at 53.34 133.35 0)
+			(at 144.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4250,7 +4250,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 133.35 0)
+			(at 144.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4259,7 +4259,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 133.35 0)
+			(at 144.78 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4281,7 +4281,7 @@
 	)
 	(symbol
 		(lib_id "power:VCC")
-		(at 44.45 135.89 0)
+		(at 135.89 81.28 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4290,7 +4290,7 @@
 		(fields_autoplaced yes)
 		(uuid "5fea32a0-cd4d-4be5-a2ab-a3a8864c7633")
 		(property "Reference" "#PWR015"
-			(at 44.45 139.7 0)
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4299,15 +4299,16 @@
 			)
 		)
 		(property "Value" "VCC"
-			(at 44.45 130.81 0)
+			(at 138.43 80.0099 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify left)
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 135.89 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4316,7 +4317,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 135.89 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4325,7 +4326,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VCC\""
-			(at 44.45 135.89 0)
+			(at 135.89 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4412,7 +4413,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 44.45 167.64 0)
+		(at 135.89 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4420,7 +4421,7 @@
 		(dnp no)
 		(uuid "62bb5203-d921-48a3-a283-03bfa96096b7")
 		(property "Reference" "#PWR014"
-			(at 44.45 173.99 0)
+			(at 135.89 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4429,7 +4430,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 44.704 171.704 0)
+			(at 136.144 117.094 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4437,7 +4438,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 44.45 167.64 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4446,7 +4447,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 44.45 167.64 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4455,7 +4456,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 44.45 167.64 0)
+			(at 135.89 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4634,7 +4635,7 @@
 	)
 	(symbol
 		(lib_id "Transistor_FET:IRLIZ44N")
-		(at 41.91 162.56 0)
+		(at 133.35 107.95 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4643,7 +4644,7 @@
 		(fields_autoplaced yes)
 		(uuid "7033e372-3131-448b-8deb-6cc5bb6b73d9")
 		(property "Reference" "Q1"
-			(at 48.26 161.2899 0)
+			(at 139.7 106.6799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4652,7 +4653,7 @@
 			)
 		)
 		(property "Value" "SL2312"
-			(at 48.26 163.8299 0)
+			(at 139.7 109.2199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4661,7 +4662,7 @@
 			)
 		)
 		(property "Footprint" "Package_TO_SOT_SMD:TSOT-23_HandSoldering"
-			(at 46.99 164.465 0)
+			(at 138.43 109.855 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4672,7 +4673,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/shenzhen-slkormicro-semicon-co-ltd/SL2312/27519102"
-			(at 46.99 166.37 0)
+			(at 138.43 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4682,7 +4683,7 @@
 			)
 		)
 		(property "Description" "30A Id, 55V Vds, 22mOhm Rds, N-Channel HEXFET Power MOSFET, TO-220AB"
-			(at 41.91 162.56 0)
+			(at 133.35 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4868,7 +4869,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 26.67 167.64 0)
+		(at 118.11 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4877,7 +4878,7 @@
 		(fields_autoplaced yes)
 		(uuid "7512b855-f4b7-47d4-a5a0-1d628f89628d")
 		(property "Reference" "R3"
-			(at 29.21 166.3699 0)
+			(at 120.65 111.7599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4886,7 +4887,7 @@
 			)
 		)
 		(property "Value" "5k"
-			(at 29.21 168.9099 0)
+			(at 120.65 114.2999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4895,7 +4896,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 24.892 167.64 90)
+			(at 116.332 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4904,7 +4905,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 26.67 167.64 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4913,7 +4914,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 26.67 167.64 0)
+			(at 118.11 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4938,7 +4939,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED_Pad")
-		(at 44.45 139.7 90)
+		(at 135.89 85.09 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4947,7 +4948,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ed9a003-9529-4437-ad03-89b778fbcc9b")
 		(property "Reference" "D6"
-			(at 40.64 138.4299 90)
+			(at 132.08 83.8199 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4956,7 +4957,7 @@
 			)
 		)
 		(property "Value" "2.85V 1.5Amax"
-			(at 40.64 140.9699 90)
+			(at 132.08 86.3599 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4965,7 +4966,7 @@
 			)
 		)
 		(property "Footprint" "LED_SMD:LED_Cree-XHP50_3V_HighDensity"
-			(at 44.45 139.7 0)
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4974,7 +4975,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/cree-led/XTEAWT-00-0000-000000F51/2811435"
-			(at 44.45 139.7 0)
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4983,7 +4984,7 @@
 			)
 		)
 		(property "Description" "Light emitting diode with pad"
-			(at 44.45 139.7 0)
+			(at 135.89 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5542,7 +5543,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 44.45 149.86 0)
+		(at 135.89 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5551,7 +5552,7 @@
 		(fields_autoplaced yes)
 		(uuid "b53cc2ac-b197-4b1a-b980-f8a903d902d4")
 		(property "Reference" "R4"
-			(at 46.99 148.5899 0)
+			(at 138.43 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5560,7 +5561,7 @@
 			)
 		)
 		(property "Value" "1.6"
-			(at 46.99 151.1299 0)
+			(at 138.43 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5569,7 +5570,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 42.672 149.86 90)
+			(at 134.112 95.25 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5578,7 +5579,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.digikey.ca/en/products/detail/yageo/RC1206FR-071R6L/728449"
-			(at 44.45 149.86 0)
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5587,7 +5588,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 44.45 149.86 0)
+			(at 135.89 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5682,7 +5683,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 26.67 172.72 0)
+		(at 118.11 118.11 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5691,7 +5692,7 @@
 		(fields_autoplaced yes)
 		(uuid "c1282074-d255-48be-9332-ca7f30815831")
 		(property "Reference" "#PWR013"
-			(at 26.67 179.07 0)
+			(at 118.11 124.46 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5700,7 +5701,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 26.67 177.8 0)
+			(at 118.11 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5708,7 +5709,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 26.67 172.72 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5717,7 +5718,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 26.67 172.72 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5726,7 +5727,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 26.67 172.72 0)
+			(at 118.11 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5818,7 +5819,7 @@
 	)
 	(symbol
 		(lib_id "CustomSym:HeatSink")
-		(at 53.34 139.7 0)
+		(at 144.78 85.09 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5827,7 +5828,7 @@
 		(fields_autoplaced yes)
 		(uuid "d2046a44-867e-461e-9d08-169b21ae728f")
 		(property "Reference" "H2"
-			(at 55.88 140.9699 0)
+			(at 147.32 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5836,7 +5837,7 @@
 			)
 		)
 		(property "Value" "~"
-			(at 55.88 143.5099 0)
+			(at 147.32 88.8999 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5845,7 +5846,7 @@
 			)
 		)
 		(property "Footprint" "CustomLib:Heatsink"
-			(at 53.34 139.7 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5854,7 +5855,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 53.34 139.7 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5863,7 +5864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 53.34 139.7 0)
+			(at 144.78 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
